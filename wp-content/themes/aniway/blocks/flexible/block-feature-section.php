@@ -48,7 +48,6 @@
 				<?php if($button_label && $button_url): ?>
 				<a href="<?php echo esc_url( $button_url ); ?>" class="btn">
 					<span><?php echo $button_label; ?></span>
-					<span><img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" alt="Image Description"></span>
 				</a>
 				<?php endif; ?>
 			</div>
